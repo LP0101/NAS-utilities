@@ -3,7 +3,7 @@ login=""
 pass=""
 host=""
 remote_dir="" 
-local_dir="" 
+local_dir="" # Use an interim folder, not the final destination for plex media
 plex_url=""
 plex_token=""
 trap "rm -f /tmp/gettorrent.lock" SIGINT SIGTERM
